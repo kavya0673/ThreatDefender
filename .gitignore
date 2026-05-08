@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+
+# Build outputs
+frontend/dist/
+dist/
+build/
+
+# Local databases and runtime files
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.err
+ares_log*.txt
+startup*.txt
+backend/app/reports/*.pdf
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
