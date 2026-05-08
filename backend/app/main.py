@@ -17,7 +17,7 @@ print(f"DEBUG: Current Directory: {os.getcwd()}")
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("ARES")
+logger = logging.getLogger("ThreatDefender")
 
 def ensure_local_schema():
     """Add columns that older local SQLite databases may be missing."""
@@ -113,7 +113,7 @@ else:
     logger.warning("Frontend dist NOT found. Root will return API info.")
     @app.get("/")
     async def root():
-        return {"message": "ARES API Operational", "frontend": "Not Built"}
+        return {"message": "ThreatDefender API Operational", "frontend": "Not Built"}
 
 if __name__ == "__main__":
     import uvicorn

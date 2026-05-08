@@ -122,7 +122,7 @@ export default function DashboardPage() {
               <h2>Threat Intelligence</h2>
               <p>Latest signatures, attack vectors, and analyst insights.</p>
             </div>
-            <span className="tag">AI-assisted</span>
+            <span className="tag">Analysis</span>
           </div>
           <div className="intelligence-grid">
             <div>

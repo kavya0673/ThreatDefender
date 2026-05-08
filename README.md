@@ -1,13 +1,13 @@
-# ARES - AI-assisted Rapid Evaluation Scanner
+# ThreatDefender Web Vulnerability Scanner
 
-ARES is a production-grade Web Application Vulnerability Scanner designed for enterprise security teams. It combines high-speed asynchronous crawling with AI-powered vulnerability analysis.
+ThreatDefender is a web vulnerability scanner and security dashboard for authorized website assessments. It crawls a target site, runs vulnerability checks, calculates risk, and generates PDF reports.
 
 ## Features
 
 - **Intelligent Crawler**: Discovers endpoints, forms, and hidden parameters.
 - **Vulnerability Engine**: Detects SQLi, XSS, CSRF, and Misconfigurations.
-- **AI Analysis**: Classifies severity and generates human-readable remediation advice.
-- **SOC Dashboard**: A premium, futuristic UI for real-time monitoring and reporting.
+- **Analysis**: Classifies severity and generates human-readable remediation advice.
+- **Security Dashboard**: Real-time monitoring, findings review, and reporting.
 - **Scalable Architecture**: Built with FastAPI, Celery, and Redis.
 
 ## Tech Stack

@@ -224,7 +224,7 @@ async def quick_scan(scan_in: ScanCreate):
     endpoints_checked = 0
 
     headers_to_send = {
-        "User-Agent": "ARES-Scanner/2.4.1 (Security Research)",
+        "User-Agent": "ThreatDefender-Scanner/2.4.1",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     }
 

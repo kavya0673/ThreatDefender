@@ -3,7 +3,7 @@ from typing import List, Optional
 import logging
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "ARES - Security Assessment Platform"
+    PROJECT_NAME: str = "ThreatDefender Web Vulnerability Scanner"
     API_V1_STR: str = "/api/v1"
     SECRET_KEY: str = "YOUR_SUPER_SECRET_KEY_CHANGE_ME_IN_PRODUCTION"
     ALGORITHM: str = "HS256"
@@ -34,7 +34,7 @@ class Settings(BaseSettings):
     # Scanner Settings
     MAX_CRAWL_DEPTH: int = 5
     MAX_CONCURRENT_REQUESTS: int = 10
-    USER_AGENT: str = "ARES-Scanner/1.0.0 (Enterprise-Security)"
+    USER_AGENT: str = "ThreatDefender-Scanner/1.0.0"
 
     class Config:
         env_file = ".env"

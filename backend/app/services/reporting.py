@@ -10,7 +10,7 @@ class SecurityReport(FPDF):
         if self.page_no() > 1:
             self.set_font('helvetica', 'I', 8)
             self.set_text_color(128)
-            self.cell(0, 10, 'ARES Enterprise Security Assessment Report - Confidential', 0, 0, 'R')
+            self.cell(0, 10, 'ThreatDefender Security Assessment Report - Confidential', 0, 0, 'R')
             self.ln(10)
 
     def footer(self):
@@ -48,7 +48,7 @@ class ReportingService:
         pdf.set_font('helvetica', 'B', 32)
         pdf.set_y(80)
         pdf.set_text_color(30, 41, 59)
-        pdf.cell(0, 20, 'ARES', 0, 1, 'C')
+        pdf.cell(0, 20, 'ThreatDefender', 0, 1, 'C')
         pdf.set_font('helvetica', 'B', 20)
         pdf.cell(0, 15, 'Enterprise Security Assessment', 0, 1, 'C')
         

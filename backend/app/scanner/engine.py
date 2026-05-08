@@ -87,7 +87,7 @@ class ScannerEngine:
             self.scan_obj.status = "running"
             self.db.commit()
 
-            self.add_log(f"Initializing ARES Engine v2.4.1 for {self.scan_obj.target_url}")
+            self.add_log(f"Initializing ThreatDefender scanner for {self.scan_obj.target_url}")
             self.add_log("Recursive crawler started — depth 5 | 10 threads")
             
             crawler = Crawler(self.scan_obj.target_url)
