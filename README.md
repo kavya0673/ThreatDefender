@@ -2,6 +2,8 @@
 
 ThreatDefender is a web vulnerability scanner and security dashboard for authorized website assessments. It crawls a target site, runs vulnerability checks, calculates risk, and generates PDF reports.
 
+![ThreatDefender dashboard](docs/screenshots/threatdefender-dashboard.png)
+
 ## Features
 
 - **Intelligent Crawler**: Discovers endpoints, forms, and hidden parameters.
